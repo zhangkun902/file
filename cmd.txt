@@ -1,0 +1,13 @@
+sudo add-apt-repository -y ppa:git-core/ppa && sudo apt-get update && sudo apt-get install -y git python2-minimal python3-minimal python-is-python3
+
+git config --global user.name "<FirstName> <LastName>"
+git config --global user.email "<alias>@microsoft.com"
+git config --local core.autocrlf false
+git config --local branch.autosetuprebase always
+git config --local core.deltaBaseCacheLimit 2g
+git config --local gc.reflogExpireUnreachable 1.days.ago
+git config --local gc.worktreePruneExpire 1.days.ago
+git config --local gc.pruneExpire 1.days.ago
+git config --local gc.reflogExpire 7.days.ago
+
+6qykemniy3qjlduynkuq4d4agputfff5nynwsmyoirekyeromjwa
